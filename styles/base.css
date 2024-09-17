@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 header {
     background-color:#006494 ;
     text-align: center;
@@ -45,14 +49,14 @@ nav a:hover {
     
 }
 
-/* main p, main ul {
-    
-} */
+
 
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr ;
+    max-width: 2000px;
+
 }
 
 #about-me, #web-dev-resources {
@@ -91,6 +95,16 @@ main {
     margin: 20px;
     border-radius: 25px;
     box-shadow: 5px 5px 5px gray;
+}
+
+#homepage-img-2{
+    width: 500px;
+    float: right;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 20px;
+    margin-right: 250px;
+
 }
 
 #web-dev-resources {
